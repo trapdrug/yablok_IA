@@ -70,14 +70,14 @@ export default function Landing({
             <div className="fc-hero-card-body">
               <div className="fc-hero-kpis">
                 <div className="fc-hero-kpi">
-                  <div className="k">air · FG-AIR</div>
+                  <div className="k">air · <span style={{ whiteSpace: 'nowrap' }}>FG-AIR</span></div>
                   <div className="v">{air?.on_hand ?? '—'}<small> шт</small></div>
-                  <div className="s">свободно {air?.free ?? '—'} · резерв {air?.reserved ?? '—'}</div>
+                  <div className="s">свободно {air?.free ?? '—'} · бронь {air?.reserved ?? '—'}</div>
                 </div>
                 <div className="fc-hero-kpi">
-                  <div className="k">air plus · FG-PLUS</div>
+                  <div className="k">air plus · <span style={{ whiteSpace: 'nowrap' }}>FG-PLUS</span></div>
                   <div className="v">{plus?.on_hand ?? '—'}<small> шт</small></div>
-                  <div className="s">свободно {plus?.free ?? '—'} · резерв {plus?.reserved ?? '—'}</div>
+                  <div className="s">свободно {plus?.free ?? '—'} · бронь {plus?.reserved ?? '—'}</div>
                 </div>
                 <div className="fc-hero-kpi">
                   <div className="k">Активные заказы</div>
@@ -85,9 +85,9 @@ export default function Landing({
                   <div className="s">в пути {snap?.kpi?.expected_shipments ?? '—'} поставок</div>
                 </div>
                 <div className={atRisk > 0 ? 'fc-hero-kpi alert' : 'fc-hero-kpi'}>
-                  <div className="k">В риске</div>
+                  <div className="k">Возможные риски</div>
                   <div className="v">{atRisk}</div>
-                  <div className="s">{atRisk > 0 ? 'смотрите сценарий' : 'все в срок'}</div>
+                  <div className="s">{atRisk > 0 ? 'смотрите проверку задержки' : 'все в срок'}</div>
                 </div>
               </div>
               <div className="fc-hero-card-foot" style={{ border: 'none', padding: '4px 2px 0' }}>

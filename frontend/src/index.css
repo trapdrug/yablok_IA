@@ -1370,6 +1370,7 @@ ul li { margin-bottom: 5px; color: var(--muted-fg); font-size: 14px; font-weight
   .fc-body { padding-left: 16px; padding-right: 16px; }
   .fc-hero-kpi { padding: 11px 12px; }
   .fc-hero-kpi .v { font-size: 24px; }
+  .fc-hero-kpi .s { font-size: 11px; }
   .fc-footer-contacts { margin-left: 0; text-align: left; }
   .fc-plan { padding: 22px 18px; }
   .ai-chat { padding: 18px 16px; }
