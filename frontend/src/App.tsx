@@ -136,7 +136,7 @@ export default function App() {
           ← Главная
         </button>
         <div className="work-brand">
-          <img className="fc-logo-img sm" src="/yabloki-logo.png" alt="ЯблокИИ" />
+          <img className="fc-logo-img sm" src="./yabloki-logo.png" alt="ЯблокИИ" />
           <span><b>Яблок<span className="ii">ИИ</span></b> · консоль</span>
         </div>
         <div className="work-top-right">

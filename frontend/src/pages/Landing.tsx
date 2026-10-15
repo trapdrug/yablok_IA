@@ -35,7 +35,7 @@ export default function Landing({
           </div>
           <span className="fc-x">×</span>
           <div className="fc-brand">
-            <img className="fc-logo-img" src="/yabloki-logo.png" alt="ЯблокИИ" />
+            <img className="fc-logo-img" src="./yabloki-logo.png" alt="ЯблокИИ" />
             <div className="fc-brand-name"><b>Яблок<span className="ii big">ИИ</span></b></div>
           </div>
           <div className="fc-header-right">
