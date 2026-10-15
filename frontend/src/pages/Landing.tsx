@@ -40,9 +40,6 @@ export default function Landing({
           </div>
           <div className="fc-header-right">
             <a className="fc-phone" href="tel:+74991305177">+7 (499) 130-51-77</a>
-            <button className="btn-primary" style={{ padding: '9px 20px' }} onClick={() => onEnter('dash')}>
-              Открыть приложение
-            </button>
           </div>
         </div>
       </header>

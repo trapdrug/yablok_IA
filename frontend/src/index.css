@@ -354,6 +354,11 @@ button:disabled { opacity: 0.45; cursor: default; }
 }
 .fc-hero-lead b { color: var(--foreground); font-weight: 500; }
 .fc-hero-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 30px; }
+.fc-hero-cta .btn-indigo {
+  font-size: 17px;
+  padding: 17px 44px;
+  min-height: 58px;
+}
 .fc-link-more {
   display: inline-flex; align-items: center; gap: 6px;
   color: var(--primary-soft);
@@ -1345,7 +1350,7 @@ ul li { margin-bottom: 5px; color: var(--muted-fg); font-size: 14px; font-weight
   .card { padding: 16px; }
   /* Кнопки действий — одинаковые, по центру */
   .fc-hero-cta { display: flex; gap: 10px; }
-  .fc-hero-cta .btn-indigo, .fc-hero-cta .btn-ghost { flex: 1 1 0; justify-content: center; text-align: center; padding: 12px 8px; min-height: 48px; }
+  .fc-hero-cta .btn-indigo, .fc-hero-cta .btn-ghost { flex: 1 1 0; justify-content: center; text-align: center; padding: 14px 8px; min-height: 56px; font-size: 15.5px; }
   .chips { display: grid; grid-template-columns: 1fr 1fr; }
   .chip { text-align: center; justify-content: center; align-items: center; min-height: 48px; }
   .ai-row input { flex: 1 1 100%; }

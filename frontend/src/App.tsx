@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { snapshot as fetchSnapshot, shipments as fetchShipments, adminReset, isMockMode, onMockMode } from './api';
+import { snapshot as fetchSnapshot, shipments as fetchShipments, isMockMode, onMockMode } from './api';
 import Dashboard from './pages/Dashboard';
 import Orders from './pages/Orders';
 import Shipments from './pages/Shipments';
@@ -46,7 +46,6 @@ export default function App() {
   const [ships, setShips] = useState<any[]>([]);
   const [mock, setMock] = useState(isMockMode());
   const [msg, setMsg] = useState('');
-  const [fixture, setFixture] = useState<'simple' | 'extended'>('simple');
 
   const load = useCallback(async () => {
     try {
@@ -65,17 +64,6 @@ export default function App() {
     load();
     return onMockMode(setMock);
   }, [load]);
-
-  async function changeFixture(f: 'simple' | 'extended') {
-    setFixture(f);
-    setMsg('');
-    try {
-      await adminReset(f);
-      await load();
-    } catch (e: any) {
-      setMsg('Reset: ' + e.message);
-    }
-  }
 
   function enter(t: Tab) {
     setTab(t);
@@ -145,15 +133,6 @@ export default function App() {
             {mock ? 'демо' : 'онлайн'} · {snap ? fmtDate(snap.now) : '—'}
           </span>
           <button className="work-btn" onClick={load}>Обновить</button>
-          <select
-            className="work-select"
-            value={fixture}
-            onChange={(e) => changeFixture(e.target.value as 'simple' | 'extended')}
-            title="Набор данных"
-          >
-            <option value="simple">простой</option>
-            <option value="extended">расширенный</option>
-          </select>
         </div>
       </header>
 
