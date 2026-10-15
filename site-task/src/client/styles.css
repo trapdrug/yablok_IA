@@ -1,0 +1,161 @@
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f5f6f8;
+  color: #1c1e21;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin: 12px 0;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 6px 14px;
+  border: 1px solid #c9cdd4;
+  background: #fff;
+  color: #1c1e21;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab.active {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 8px 0;
+  background: #fff;
+}
+
+th,
+td {
+  border: 1px solid #d6d9de;
+  padding: 6px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background: #eef0f3;
+}
+
+tr.row-risk {
+  background: #fdecec;
+}
+
+tr.row-risk td {
+  border-color: #e7b3b3;
+}
+
+button {
+  padding: 5px 12px;
+  border: 1px solid #2563eb;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+input,
+select,
+textarea {
+  padding: 5px 8px;
+  border: 1px solid #c9cdd4;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+
+.message {
+  color: #b91c1c;
+  font-size: 14px;
+}
+
+.hint {
+  color: #555;
+  font-size: 13px;
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #e0e7ff;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.answer {
+  margin-top: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #d6d9de;
+  border-radius: 6px;
+}
+
+.answer.ok {
+  border-color: #86efac;
+  background: #f0fdf4;
+}
+
+.answer.fail {
+  border-color: #fca5a5;
+  background: #fef2f2;
+}
+
+.answer pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 14px;
+  margin: 0;
+}
+
+.error {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 16px;
+  background: #fdecec;
+  border: 1px solid #e7b3b3;
+  border-radius: 6px;
+}

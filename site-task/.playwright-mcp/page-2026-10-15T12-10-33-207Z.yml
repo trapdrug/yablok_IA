@@ -1,0 +1,17 @@
+- generic [ref=e3]:
+  - heading "Учебная модель предприятия — Air / Air Plus" [level=1] [ref=e4]
+  - navigation [ref=e5]:
+    - button "Склад" [ref=e6] [cursor=pointer]
+    - button "Заказы" [ref=e7] [cursor=pointer]
+    - button "Поставки" [ref=e8] [cursor=pointer]
+    - button "Симуляция" [ref=e9] [cursor=pointer]
+    - button "ИИ" [ref=e10] [cursor=pointer]
+    - button "Производство" [ref=e11] [cursor=pointer]
+  - generic [ref=e283]:
+    - heading "ИИ-аналитик" [level=2] [ref=e284]
+    - paragraph [ref=e285]:
+      - text: Ответ строится строго по актуальному снимку состояния склада.
+      - generic [ref=e289]: "провайдер: mock"
+    - 'textbox "Например: Сколько Air сейчас свободно к отгрузке?" [ref=e286]': Какая нехватка есть?
+    - button "Спросить" [ref=e288] [cursor=pointer]
+    - generic [ref=e290]: "(mock-аналитик, данные на 2026-10-15) Нехватка по NEW-заказам: AIR=3, AIR_PLUS=9."

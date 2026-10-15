@@ -1,0 +1,168 @@
+- generic [ref=e3]:
+  - heading "Учебная модель предприятия — Air / Air Plus" [level=1] [ref=e4]
+  - navigation [ref=e5]:
+    - button "Склад" [ref=e6] [cursor=pointer]
+    - button "Заказы" [active] [ref=e7] [cursor=pointer]
+    - button "Поставки" [ref=e8] [cursor=pointer]
+    - button "Симуляция" [ref=e9] [cursor=pointer]
+    - button "ИИ" [ref=e10] [cursor=pointer]
+    - button "Производство" [ref=e11] [cursor=pointer]
+  - generic [ref=e60]:
+    - heading "Активные заказы" [level=2] [ref=e61]
+    - table [ref=e62]:
+      - rowgroup [ref=e63]:
+        - row [ref=e64]:
+          - columnheader "ID" [ref=e65]
+          - columnheader "Клиент" [ref=e66]
+          - columnheader "SKU" [ref=e67]
+          - columnheader "Кол-во" [ref=e68]
+          - columnheader "Создан" [ref=e69]
+          - columnheader "Срок" [ref=e70]
+          - columnheader "Статус" [ref=e71]
+          - columnheader "Приоритет" [ref=e72]
+          - columnheader "Риск" [ref=e73]
+          - columnheader "Действия" [ref=e74]
+      - rowgroup [ref=e75]:
+        - row [ref=e76]:
+          - cell "ORD-001" [ref=e77]
+          - cell "Theta LLC" [ref=e78]
+          - cell "AIR" [ref=e79]
+          - cell "5" [ref=e80]
+          - cell "2026-10-13" [ref=e81]
+          - cell "2026-10-18" [ref=e82]
+          - cell "NEW" [ref=e83]
+          - cell "HIGH" [ref=e84]
+          - cell "—" [ref=e85]
+          - cell [ref=e86]:
+            - button "Резерв" [ref=e87] [cursor=pointer]
+        - row [ref=e88]:
+          - cell "ORD-002" [ref=e89]
+          - cell "Zeta Ltd" [ref=e90]
+          - cell "AIR" [ref=e91]
+          - cell "8" [ref=e92]
+          - cell "2026-10-14" [ref=e93]
+          - cell "2026-10-20" [ref=e94]
+          - cell "NEW" [ref=e95]
+          - cell "NORMAL" [ref=e96]
+          - cell "—" [ref=e97]
+          - cell [ref=e98]:
+            - button "Резерв" [ref=e99] [cursor=pointer]
+        - row [ref=e100]:
+          - cell "ORD-003" [ref=e101]
+          - cell "Mu Oy" [ref=e102]
+          - cell "AIR" [ref=e103]
+          - cell "10" [ref=e104]
+          - cell "2026-10-15" [ref=e105]
+          - cell "2026-10-22" [ref=e106]
+          - cell "NEW" [ref=e107]
+          - cell "NORMAL" [ref=e108]
+          - cell "—" [ref=e109]
+          - cell [ref=e110]:
+            - button "Резерв" [ref=e111] [cursor=pointer]
+        - row [ref=e112]:
+          - cell "ORD-004" [ref=e113]
+          - cell "Iota Inc" [ref=e114]
+          - cell "AIR" [ref=e115]
+          - cell "6" [ref=e116]
+          - cell "2026-10-15" [ref=e117]
+          - cell "2026-10-25" [ref=e118]
+          - cell "NEW" [ref=e119]
+          - cell "LOW" [ref=e120]
+          - cell "—" [ref=e121]
+          - cell [ref=e122]:
+            - button "Резерв" [ref=e123] [cursor=pointer]
+        - row [ref=e124]:
+          - cell "ORD-005" [ref=e125]
+          - cell "Gamma Inc" [ref=e126]
+          - cell "AIR" [ref=e127]
+          - cell "4" [ref=e128]
+          - cell "2026-10-12" [ref=e129]
+          - cell "2026-10-17" [ref=e130]
+          - cell "RESERVED" [ref=e131]
+          - cell "HIGH" [ref=e132]
+          - cell "—" [ref=e133]
+          - cell [ref=e134]:
+            - button "Отгрузить" [ref=e135] [cursor=pointer]
+        - row [ref=e136]:
+          - cell "ORD-006" [ref=e137]
+          - cell "Eta Corp" [ref=e138]
+          - cell "AIR" [ref=e139]
+          - cell "3" [ref=e140]
+          - cell "2026-10-10" [ref=e141]
+          - cell "2026-10-14" [ref=e142]
+          - cell "SHIPPED" [ref=e143]
+          - cell "NORMAL" [ref=e144]
+          - cell "—" [ref=e145]
+          - cell [ref=e146]
+        - row [ref=e147]:
+          - cell "ORD-007" [ref=e148]
+          - cell "Delta GmbH" [ref=e149]
+          - cell "AIR_PLUS" [ref=e150]
+          - cell "6" [ref=e151]
+          - cell "2026-10-14" [ref=e152]
+          - cell "2026-10-19" [ref=e153]
+          - cell "NEW" [ref=e154]
+          - cell "HIGH" [ref=e155]
+          - cell "—" [ref=e156]
+          - cell [ref=e157]:
+            - button "Резерв" [ref=e158] [cursor=pointer]
+        - row [ref=e159]:
+          - cell "ORD-008" [ref=e160]
+          - cell "Iota Inc" [ref=e161]
+          - cell "AIR_PLUS" [ref=e162]
+          - cell "5" [ref=e163]
+          - cell "2026-10-15" [ref=e164]
+          - cell "2026-10-21" [ref=e165]
+          - cell "NEW" [ref=e166]
+          - cell "NORMAL" [ref=e167]
+          - cell "—" [ref=e168]
+          - cell [ref=e169]:
+            - button "Резерв" [ref=e170] [cursor=pointer]
+        - row [ref=e171]:
+          - cell "ORD-009" [ref=e172]
+          - cell "Mu Oy" [ref=e173]
+          - cell "AIR_PLUS" [ref=e174]
+          - cell "5" [ref=e175]
+          - cell "2026-10-15" [ref=e176]
+          - cell "2026-10-23" [ref=e177]
+          - cell "NEW" [ref=e178]
+          - cell "NORMAL" [ref=e179]
+          - cell "дефицит 1" [ref=e180]
+          - cell [ref=e181]:
+            - button "Резерв" [ref=e182] [cursor=pointer]
+        - row [ref=e183]:
+          - cell "ORD-010" [ref=e184]
+          - cell "Eta Corp" [ref=e185]
+          - cell "AIR_PLUS" [ref=e186]
+          - cell "3" [ref=e187]
+          - cell "2026-10-13" [ref=e188]
+          - cell "2026-10-18" [ref=e189]
+          - cell "RESERVED" [ref=e190]
+          - cell "HIGH" [ref=e191]
+          - cell "—" [ref=e192]
+          - cell [ref=e193]:
+            - button "Отгрузить" [ref=e194] [cursor=pointer]
+        - row [ref=e195]:
+          - cell "ORD-011" [ref=e196]
+          - cell "Delta GmbH" [ref=e197]
+          - cell "AIR_PLUS" [ref=e198]
+          - cell "2" [ref=e199]
+          - cell "2026-10-11" [ref=e200]
+          - cell "2026-10-13" [ref=e201]
+          - cell "SHIPPED" [ref=e202]
+          - cell "NORMAL" [ref=e203]
+          - cell "—" [ref=e204]
+          - cell [ref=e205]
+    - heading "Новый заказ" [level=2] [ref=e206]
+    - generic [ref=e207]:
+      - textbox "Клиент" [ref=e208]
+      - combobox [ref=e209]:
+        - option "AIR" [selected]
+        - option "AIR_PLUS"
+      - spinbutton [ref=e210]: "1"
+      - textbox [ref=e211]
+      - combobox [ref=e212]:
+        - option "LOW"
+        - option "NORMAL" [selected]
+        - option "HIGH"
+      - button "Создать" [ref=e213] [cursor=pointer]

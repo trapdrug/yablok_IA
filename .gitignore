@@ -1,0 +1,36 @@
+# Секреты и личные файлы — НЕ коммитить
+.env
+*.env
+!.env.example
+opencode.json
+
+# Базы и архивы сборки
+*.db
+*.db-journal
+*.zip
+
+# Зависимости и сборки
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.coverage
+*.pyc
+
+# Система и редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Временные файлы
+*.log
+*.tmp
+shot_*.png
+v_*.png
+v_*.txt
+check_*.txt
+dbg_*.txt

@@ -1,0 +1,18 @@
+- generic [ref=e3]:
+  - heading "Учебная модель предприятия — Air / Air Plus" [level=1] [ref=e4]
+  - navigation [ref=e5]:
+    - button "Склад" [ref=e6] [cursor=pointer]
+    - button "Заказы" [ref=e7] [cursor=pointer]
+    - button "Поставки" [ref=e8] [cursor=pointer]
+    - button "Симуляция" [active] [ref=e9] [cursor=pointer]
+    - button "ИИ" [ref=e10] [cursor=pointer]
+    - button "Производство" [ref=e11] [cursor=pointer]
+  - generic [ref=e250]:
+    - heading "Симуляция задержки поставки (read-only)" [level=2] [ref=e251]
+    - generic [ref=e252]:
+      - combobox [ref=e253]:
+        - option "SHP-001 (AIR x15, 2026-10-19)"
+        - option "SHP-002 (AIR x10, 2026-10-24)"
+        - option "SHP-003 (AIR_PLUS x8, 2026-10-20)" [selected]
+      - spinbutton [ref=e254]: "3"
+      - button "Симулировать" [ref=e255] [cursor=pointer]

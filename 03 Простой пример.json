@@ -1,0 +1,158 @@
+{
+  "company": "Сенсорика",
+  "timezone": "Europe/Moscow",
+  "products": [
+    {
+      "sku": "FG-AIR",
+      "name": "Air",
+      "type": "finished_good",
+      "description": "Готовое устройство мониторинга температуры и влажности",
+      "aliases": [
+        "Air",
+        "базовый датчик",
+        "обычный датчик",
+        "Аир"
+      ]
+    },
+    {
+      "sku": "FG-PLUS",
+      "name": "Air Plus",
+      "type": "finished_good",
+      "description": "Готовое устройство с температурой, влажностью и дополнительным измерением CO2",
+      "aliases": [
+        "Air Plus",
+        "Air+",
+        "расширенный датчик",
+        "датчик с CO2",
+        "Аир Плюс"
+      ]
+    }
+  ],
+  "scenario_now": "2026-11-02T09:00:00+03:00",
+  "stock": [
+    {
+      "sku": "FG-AIR",
+      "on_hand": 18
+    },
+    {
+      "sku": "FG-PLUS",
+      "on_hand": 8
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-001",
+      "customer": "Кампус Восток",
+      "sku": "FG-AIR",
+      "quantity": 6,
+      "reserved_qty": 6,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-11-01T09:00:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-002",
+      "customer": "Офис Парк",
+      "sku": "FG-PLUS",
+      "quantity": 5,
+      "reserved_qty": 5,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-11-01T10:00:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-003",
+      "customer": "Лаборатория Учебная",
+      "sku": "FG-AIR",
+      "quantity": 15,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-11-01T11:00:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-004",
+      "customer": "Бизнес Центр Север",
+      "sku": "FG-PLUS",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-11-01T12:00:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-005",
+      "customer": "Колледж Маяк",
+      "sku": "FG-AIR",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-11-01T13:00:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-006",
+      "customer": "Мастерская Пилот",
+      "sku": "FG-PLUS",
+      "quantity": 2,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-11-01T14:00:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-007",
+      "customer": "Коворкинг Берег",
+      "sku": "FG-AIR",
+      "quantity": 4,
+      "reserved_qty": 0,
+      "shipped_qty": 4,
+      "status": "shipped",
+      "created_at": "2026-10-30T09:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "ORD-008",
+      "customer": "Офис Резерв",
+      "sku": "FG-PLUS",
+      "quantity": 6,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-30T10:00:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    }
+  ],
+  "incoming_shipments": [
+    {
+      "shipment_id": "IN-AIR-01",
+      "supplier": "Контрактная сборка Север",
+      "sku": "FG-AIR",
+      "quantity": 10,
+      "expected_at": "2026-11-03T10:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "IN-PLUS-01",
+      "supplier": "Контрактная сборка Юг",
+      "sku": "FG-PLUS",
+      "quantity": 6,
+      "expected_at": "2026-11-04T09:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "IN-AIR-02",
+      "supplier": "Контрактная сборка Север",
+      "sku": "FG-AIR",
+      "quantity": 8,
+      "expected_at": "2026-11-05T15:00:00+03:00",
+      "status": "expected"
+    }
+  ]
+}

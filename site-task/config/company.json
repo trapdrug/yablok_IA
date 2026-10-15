@@ -1,0 +1,13 @@
+{
+  "company": "Air Devices Inc.",
+  "skus": {
+    "AIR": { "name": "Air", "measures": ["temperature", "humidity"] },
+    "AIR_PLUS": { "name": "Air Plus", "measures": ["temperature", "humidity", "co2"] }
+  },
+  "bom": {
+    "AIR": { "pcb": 1, "temp_sensor": 1, "humidity_sensor": 1, "display": 1, "case": 1 },
+    "AIR_PLUS": { "pcb": 1, "temp_sensor": 1, "humidity_sensor": 1, "co2_sensor": 1, "display": 1, "case": 1 }
+  },
+  "production": { "defectRate": 0.05, "hoursPerUnit": 0.4, "shiftsPerDay": 2, "hoursPerShift": 8 },
+  "risk": { "considerIncoming": true, "priorityOrder": ["HIGH", "NORMAL", "LOW"] }
+}

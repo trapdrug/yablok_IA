@@ -1,0 +1,57 @@
+- generic [ref=e3]:
+  - heading "Учебная модель предприятия — Air / Air Plus" [level=1] [ref=e4]
+  - navigation [ref=e5]:
+    - button "Склад" [ref=e6] [cursor=pointer]
+    - button "Заказы" [ref=e7] [cursor=pointer]
+    - button "Поставки" [ref=e8] [cursor=pointer]
+    - button "Симуляция" [ref=e9] [cursor=pointer]
+    - button "ИИ" [ref=e10] [cursor=pointer]
+    - button "Производство" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - heading "Остатки" [level=2] [ref=e13]
+    - table [ref=e14]:
+      - rowgroup [ref=e15]:
+        - row [ref=e16]:
+          - columnheader "SKU" [ref=e17]
+          - columnheader "Физический" [ref=e18]
+          - columnheader "Резерв" [ref=e19]
+          - columnheader "Свободно" [ref=e20]
+          - columnheader "Нехватка" [ref=e21]
+      - rowgroup [ref=e22]:
+        - row [ref=e23]:
+          - cell "AIR" [ref=e24]
+          - cell "30" [ref=e25]
+          - cell "4" [ref=e26]
+          - cell "26" [ref=e27]
+          - cell "−3" [ref=e28]
+        - row [ref=e29]:
+          - cell "AIR_PLUS" [ref=e30]
+          - cell "10" [ref=e31]
+          - cell "3" [ref=e32]
+          - cell "7" [ref=e33]
+          - cell "−9" [ref=e34]
+    - heading "Комплектующие" [level=2] [ref=e35]
+    - table [ref=e36]:
+      - rowgroup [ref=e37]:
+        - row [ref=e38]:
+          - columnheader "Компонент" [ref=e39]
+          - columnheader "Кол-во" [ref=e40]
+      - rowgroup [ref=e41]:
+        - row [ref=e42]:
+          - cell "pcb" [ref=e43]
+          - cell "150" [ref=e44]
+        - row [ref=e45]:
+          - cell "temp_sensor" [ref=e46]
+          - cell "150" [ref=e47]
+        - row [ref=e48]:
+          - cell "humidity_sensor" [ref=e49]
+          - cell "150" [ref=e50]
+        - row [ref=e51]:
+          - cell "co2_sensor" [ref=e52]
+          - cell "40" [ref=e53]
+        - row [ref=e54]:
+          - cell "display" [ref=e55]
+          - cell "150" [ref=e56]
+        - row [ref=e57]:
+          - cell "case" [ref=e58]
+          - cell "150" [ref=e59]

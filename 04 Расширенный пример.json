@@ -1,0 +1,646 @@
+{
+  "company": "Сенсорика",
+  "timezone": "Europe/Moscow",
+  "products": [
+    {
+      "sku": "FG-AIR",
+      "name": "Air",
+      "type": "finished_good",
+      "description": "Готовое устройство мониторинга температуры и влажности",
+      "aliases": [
+        "Air",
+        "базовый датчик",
+        "обычный датчик",
+        "Аир"
+      ]
+    },
+    {
+      "sku": "FG-PLUS",
+      "name": "Air Plus",
+      "type": "finished_good",
+      "description": "Готовое устройство с температурой, влажностью и дополнительным измерением CO2",
+      "aliases": [
+        "Air Plus",
+        "Air+",
+        "расширенный датчик",
+        "датчик с CO2",
+        "Аир Плюс"
+      ]
+    }
+  ],
+  "scenario_now": "2026-11-02T09:00:00+03:00",
+  "stock": [
+    {
+      "sku": "FG-AIR",
+      "on_hand": 36
+    },
+    {
+      "sku": "FG-PLUS",
+      "on_hand": 20
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "SB-ORD-001",
+      "customer": "Учебный клиент 01",
+      "sku": "FG-AIR",
+      "quantity": 10,
+      "reserved_qty": 2,
+      "shipped_qty": 3,
+      "status": "active",
+      "created_at": "2026-10-30T09:17:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-002",
+      "customer": "Учебный клиент 02",
+      "sku": "FG-PLUS",
+      "quantity": 8,
+      "reserved_qty": 2,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T09:34:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-003",
+      "customer": "Учебный клиент 03",
+      "sku": "FG-AIR",
+      "quantity": 6,
+      "reserved_qty": 2,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T09:51:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-004",
+      "customer": "Учебный клиент 04",
+      "sku": "FG-PLUS",
+      "quantity": 4,
+      "reserved_qty": 2,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T10:08:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-005",
+      "customer": "Учебный клиент 05",
+      "sku": "FG-AIR",
+      "quantity": 11,
+      "reserved_qty": 2,
+      "shipped_qty": 3,
+      "status": "active",
+      "created_at": "2026-10-30T10:25:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-006",
+      "customer": "Учебный клиент 06",
+      "sku": "FG-PLUS",
+      "quantity": 9,
+      "reserved_qty": 2,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T10:42:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-007",
+      "customer": "Учебный клиент 07",
+      "sku": "FG-AIR",
+      "quantity": 7,
+      "reserved_qty": 2,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T10:59:00+03:00",
+      "due_at": "2026-11-02T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-008",
+      "customer": "Учебный клиент 08",
+      "sku": "FG-PLUS",
+      "quantity": 5,
+      "reserved_qty": 2,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T11:16:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-009",
+      "customer": "Учебный клиент 09",
+      "sku": "FG-AIR",
+      "quantity": 3,
+      "reserved_qty": 0,
+      "shipped_qty": 1,
+      "status": "active",
+      "created_at": "2026-10-30T11:33:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-010",
+      "customer": "Учебный клиент 01",
+      "sku": "FG-PLUS",
+      "quantity": 10,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T11:50:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-011",
+      "customer": "Учебный клиент 02",
+      "sku": "FG-AIR",
+      "quantity": 8,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T12:07:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-012",
+      "customer": "Учебный клиент 03",
+      "sku": "FG-PLUS",
+      "quantity": 6,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T12:24:00+03:00",
+      "due_at": "2026-11-03T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-013",
+      "customer": "Учебный клиент 04",
+      "sku": "FG-AIR",
+      "quantity": 4,
+      "reserved_qty": 0,
+      "shipped_qty": 1,
+      "status": "active",
+      "created_at": "2026-10-30T12:41:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-014",
+      "customer": "Учебный клиент 05",
+      "sku": "FG-PLUS",
+      "quantity": 11,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T12:58:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-015",
+      "customer": "Учебный клиент 06",
+      "sku": "FG-AIR",
+      "quantity": 9,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T13:15:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-016",
+      "customer": "Учебный клиент 07",
+      "sku": "FG-PLUS",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T13:32:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-017",
+      "customer": "Учебный клиент 08",
+      "sku": "FG-AIR",
+      "quantity": 5,
+      "reserved_qty": 0,
+      "shipped_qty": 1,
+      "status": "active",
+      "created_at": "2026-10-30T13:49:00+03:00",
+      "due_at": "2026-11-04T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-018",
+      "customer": "Учебный клиент 09",
+      "sku": "FG-PLUS",
+      "quantity": 3,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T14:06:00+03:00",
+      "due_at": "2026-11-05T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-019",
+      "customer": "Учебный клиент 01",
+      "sku": "FG-AIR",
+      "quantity": 10,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T14:23:00+03:00",
+      "due_at": "2026-11-05T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-020",
+      "customer": "Учебный клиент 02",
+      "sku": "FG-PLUS",
+      "quantity": 8,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T14:40:00+03:00",
+      "due_at": "2026-11-05T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-021",
+      "customer": "Учебный клиент 03",
+      "sku": "FG-AIR",
+      "quantity": 6,
+      "reserved_qty": 0,
+      "shipped_qty": 2,
+      "status": "active",
+      "created_at": "2026-10-30T14:57:00+03:00",
+      "due_at": "2026-11-05T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-022",
+      "customer": "Учебный клиент 04",
+      "sku": "FG-PLUS",
+      "quantity": 4,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T15:14:00+03:00",
+      "due_at": "2026-11-05T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-023",
+      "customer": "Учебный клиент 05",
+      "sku": "FG-AIR",
+      "quantity": 11,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T15:31:00+03:00",
+      "due_at": "2026-11-06T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-024",
+      "customer": "Учебный клиент 06",
+      "sku": "FG-PLUS",
+      "quantity": 9,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T15:48:00+03:00",
+      "due_at": "2026-11-06T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-025",
+      "customer": "Учебный клиент 07",
+      "sku": "FG-AIR",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 2,
+      "status": "active",
+      "created_at": "2026-10-30T16:05:00+03:00",
+      "due_at": "2026-11-06T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-026",
+      "customer": "Учебный клиент 08",
+      "sku": "FG-PLUS",
+      "quantity": 5,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T16:22:00+03:00",
+      "due_at": "2026-11-06T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-027",
+      "customer": "Учебный клиент 09",
+      "sku": "FG-AIR",
+      "quantity": 3,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T16:39:00+03:00",
+      "due_at": "2026-11-06T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-028",
+      "customer": "Учебный клиент 01",
+      "sku": "FG-PLUS",
+      "quantity": 10,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T16:56:00+03:00",
+      "due_at": "2026-11-07T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-029",
+      "customer": "Учебный клиент 02",
+      "sku": "FG-AIR",
+      "quantity": 8,
+      "reserved_qty": 0,
+      "shipped_qty": 2,
+      "status": "active",
+      "created_at": "2026-10-30T17:13:00+03:00",
+      "due_at": "2026-11-07T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-030",
+      "customer": "Учебный клиент 03",
+      "sku": "FG-PLUS",
+      "quantity": 6,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T17:30:00+03:00",
+      "due_at": "2026-11-07T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-031",
+      "customer": "Учебный клиент 04",
+      "sku": "FG-AIR",
+      "quantity": 4,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T17:47:00+03:00",
+      "due_at": "2026-11-07T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-032",
+      "customer": "Учебный клиент 05",
+      "sku": "FG-PLUS",
+      "quantity": 11,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "active",
+      "created_at": "2026-10-30T18:04:00+03:00",
+      "due_at": "2026-11-07T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-033",
+      "customer": "Учебный клиент 07",
+      "sku": "FG-AIR",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 7,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-034",
+      "customer": "Учебный клиент 08",
+      "sku": "FG-PLUS",
+      "quantity": 8,
+      "reserved_qty": 0,
+      "shipped_qty": 8,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-035",
+      "customer": "Учебный клиент 09",
+      "sku": "FG-AIR",
+      "quantity": 2,
+      "reserved_qty": 0,
+      "shipped_qty": 2,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-036",
+      "customer": "Учебный клиент 01",
+      "sku": "FG-PLUS",
+      "quantity": 3,
+      "reserved_qty": 0,
+      "shipped_qty": 3,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-037",
+      "customer": "Учебный клиент 02",
+      "sku": "FG-AIR",
+      "quantity": 4,
+      "reserved_qty": 0,
+      "shipped_qty": 4,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-038",
+      "customer": "Учебный клиент 03",
+      "sku": "FG-PLUS",
+      "quantity": 5,
+      "reserved_qty": 0,
+      "shipped_qty": 5,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-039",
+      "customer": "Учебный клиент 04",
+      "sku": "FG-AIR",
+      "quantity": 6,
+      "reserved_qty": 0,
+      "shipped_qty": 6,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-040",
+      "customer": "Учебный клиент 05",
+      "sku": "FG-PLUS",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 7,
+      "status": "shipped",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-041",
+      "customer": "Учебный клиент 06",
+      "sku": "FG-AIR",
+      "quantity": 8,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-042",
+      "customer": "Учебный клиент 07",
+      "sku": "FG-PLUS",
+      "quantity": 2,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-043",
+      "customer": "Учебный клиент 08",
+      "sku": "FG-AIR",
+      "quantity": 3,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-044",
+      "customer": "Учебный клиент 09",
+      "sku": "FG-PLUS",
+      "quantity": 4,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-045",
+      "customer": "Учебный клиент 01",
+      "sku": "FG-AIR",
+      "quantity": 5,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-046",
+      "customer": "Учебный клиент 02",
+      "sku": "FG-PLUS",
+      "quantity": 6,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-047",
+      "customer": "Учебный клиент 03",
+      "sku": "FG-AIR",
+      "quantity": 7,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    },
+    {
+      "order_id": "SB-ORD-048",
+      "customer": "Учебный клиент 04",
+      "sku": "FG-PLUS",
+      "quantity": 8,
+      "reserved_qty": 0,
+      "shipped_qty": 0,
+      "status": "cancelled",
+      "created_at": "2026-10-29T10:00:00+03:00",
+      "due_at": "2026-11-01T17:00:00+03:00"
+    }
+  ],
+  "incoming_shipments": [
+    {
+      "shipment_id": "SB-IN-AIR-00",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-AIR",
+      "quantity": 20,
+      "expected_at": "2026-10-31T10:00:00+03:00",
+      "status": "received"
+    },
+    {
+      "shipment_id": "SB-IN-AIR-01",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-AIR",
+      "quantity": 12,
+      "expected_at": "2026-11-01T15:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "SB-IN-AIR-02",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-AIR",
+      "quantity": 20,
+      "expected_at": "2026-11-03T11:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "SB-IN-AIR-03",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-AIR",
+      "quantity": 12,
+      "expected_at": "2026-11-05T10:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "SB-IN-AIR-04",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-AIR",
+      "quantity": 15,
+      "expected_at": "2026-11-06T13:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "SB-IN-PLUS-00",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-PLUS",
+      "quantity": 10,
+      "expected_at": "2026-10-31T12:00:00+03:00",
+      "status": "received"
+    },
+    {
+      "shipment_id": "SB-IN-PLUS-01",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-PLUS",
+      "quantity": 6,
+      "expected_at": "2026-11-01T12:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "SB-IN-PLUS-02",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-PLUS",
+      "quantity": 10,
+      "expected_at": "2026-11-03T14:00:00+03:00",
+      "status": "expected"
+    },
+    {
+      "shipment_id": "SB-IN-PLUS-03",
+      "supplier": "Учебный контрактный партнёр",
+      "sku": "FG-PLUS",
+      "quantity": 8,
+      "expected_at": "2026-11-04T09:00:00+03:00",
+      "status": "expected"
+    }
+  ]
+}
