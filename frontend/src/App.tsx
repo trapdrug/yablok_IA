@@ -125,7 +125,7 @@ export default function App() {
         </button>
         <div className="work-brand">
           <img className="fc-logo-img sm" src="./yabloki-logo.png" alt="ЯблокИИ" />
-          <span><b>Яблок<span className="ii">ИИ</span></b><span className="work-brand-sub"> · консоль</span></span>
+          <span><b>Яблок<span className="ii">ИИ</span></b> · консоль</span>
         </div>
         <div className="work-top-right">
           <span className="work-live" title={snap ? fmtDate(snap.now) : ''}>
