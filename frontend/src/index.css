@@ -1343,11 +1343,14 @@ ul li { margin-bottom: 5px; color: var(--muted-fg); font-size: 14px; font-weight
   .work-main { padding: 16px 12px 112px; }
   .work-card { padding: 14px; border-radius: 14px; }
   .card { padding: 16px; }
-  /* Кнопки действий — крупные, во всю ширину */
-  .fc-hero-cta .btn-indigo, .fc-hero-cta .btn-ghost { flex: 1 1 100%; justify-content: center; }
-  .ai-row button { flex: 1 1 100%; justify-content: center; }
-  .toolbar button { flex: 1 1 auto; }
-  .chip { flex: 1 1 100%; text-align: center; }
+  /* Кнопки действий — одинаковые, по центру */
+  .fc-hero-cta { display: flex; gap: 10px; }
+  .fc-hero-cta .btn-indigo, .fc-hero-cta .btn-ghost { flex: 1 1 0; justify-content: center; text-align: center; padding: 12px 8px; min-height: 48px; }
+  .chips { display: grid; grid-template-columns: 1fr 1fr; }
+  .chip { text-align: center; justify-content: center; align-items: center; min-height: 48px; }
+  .ai-row input { flex: 1 1 100%; }
+  .ai-row button { flex: 0 1 auto; min-width: 220px; margin: 0 auto; justify-content: center; min-height: 48px; }
+  .toolbar button { flex: 1 1 0; justify-content: center; text-align: center; min-height: 48px; }
   /* Таблицы плотнее, чтобы меньше скроллить */
   .tbl td { padding: 10px 8px; }
   .tbl { font-size: 12.5px; }
