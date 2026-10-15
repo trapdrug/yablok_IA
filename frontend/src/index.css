@@ -1300,7 +1300,7 @@ ul li { margin-bottom: 5px; color: var(--muted-fg); font-size: 14px; font-weight
   .work-side { display: none; }
   .work-main { padding: 18px 16px 112px; }
   .work-card { padding: 16px; }
-  .work-brand span { display: none; }
+  .work-brand-sub { display: none; }
   .work-tabbar {
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
