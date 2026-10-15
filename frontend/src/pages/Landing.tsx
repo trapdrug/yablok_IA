@@ -72,12 +72,12 @@ export default function Landing({
                 <div className="fc-hero-kpi">
                   <div className="k">air · <span style={{ whiteSpace: 'nowrap' }}>FG-AIR</span></div>
                   <div className="v">{air?.on_hand ?? '—'}<small> шт</small></div>
-                  <div className="s">свободно {air?.free ?? '—'} · бронь {air?.reserved ?? '—'}</div>
+                  <div className="s">своб. {air?.free ?? '—'} · бронь {air?.reserved ?? '—'}</div>
                 </div>
                 <div className="fc-hero-kpi">
                   <div className="k">air plus · <span style={{ whiteSpace: 'nowrap' }}>FG-PLUS</span></div>
                   <div className="v">{plus?.on_hand ?? '—'}<small> шт</small></div>
-                  <div className="s">свободно {plus?.free ?? '—'} · бронь {plus?.reserved ?? '—'}</div>
+                  <div className="s">своб. {plus?.free ?? '—'} · бронь {plus?.reserved ?? '—'}</div>
                 </div>
                 <div className="fc-hero-kpi">
                   <div className="k">Активные заказы</div>
